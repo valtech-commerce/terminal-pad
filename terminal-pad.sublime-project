@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sublime-project",
+				".editorconfig",
+				".eslintrc.yaml",
+				".gitignore",
+				".npmignore",
+				".sublimelinterrc",
+				".travis.yml"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules"
+			],
+			"path": "."
+		}
+	]
+}
