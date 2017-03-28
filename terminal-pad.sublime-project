@@ -10,7 +10,8 @@
 				".gitignore",
 				".npmignore",
 				".sublimelinterrc",
-				".travis.yml"
+				".travis.yml",
+				"license"
 			],
 			"folder_exclude_patterns":
 			[
