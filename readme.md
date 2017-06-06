@@ -7,5 +7,47 @@
 
 > Terminal-friendly string pad
 
-## License 
-See the [license](https://github.com/absolunet/node-terminal-pad/blob/master/license).
+
+## Install
+
+```sh
+$ npm install @absolunet/terminal-pad
+```
+
+
+## Usage
+
+```js
+const chalk = require('chalk');
+const pad   = require('@absolunet/terminal-pad');
+
+pad(chalk.bgRed('📛 Error'), 20);
+//=> '📛 Error             '
+```
+
+
+## API
+
+### pad(text, length)
+
+Returns an `string` with padded `text`
+
+#### text
+
+*Required*  
+Type: `string`  
+
+The text to pad.
+
+#### length
+
+*Required*  
+Type: `number`  
+
+The total length of outputted string.
+
+
+
+## License
+
+MIT © [Absolunet](https://absolunet.com)
