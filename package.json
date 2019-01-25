@@ -1,13 +1,17 @@
 {
   "name": "@absolunet/terminal-pad",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Terminal-friendly string pad",
   "definition": "",
   "homepage": "https://github.com/absolunet/node-terminal-pad",
   "author": {
     "name": "Absolunet",
-    "url": "http://absolunet.com/"
+    "url": "https://absolunet.com"
   },
+  "keywords": [
+    "pad",
+    "terminal"
+  ],
   "license": "MIT",
   "repository": {
     "url": "git://github.com/absolunet/node-terminal-pad.git",
@@ -17,15 +21,16 @@
     "url": "https://github.com/absolunet/node-terminal-pad/issues"
   },
   "engines": {
-    "node": ">= 8.5.0"
+    "node": ">= 11.7.0"
   },
+  "main": "index.js",
   "scripts": {
     "test": "ava test"
   },
   "devDependencies": {
-    "@absolunet/tester": "1.1.0"
+    "@absolunet/tester": "2.4.4"
   },
   "dependencies": {
-    "string-width": "^2.1.1"
+    "string-width": "^3.0.0"
   }
 }
