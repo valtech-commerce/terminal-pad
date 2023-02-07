@@ -1,12 +1,12 @@
 {
-  "name": "@absolunet/terminal-pad",
+  "name": "@valtech-commerce/terminal-pad",
   "version": "1.0.0",
   "description": "Terminal-friendly string pad",
   "definition": "",
-  "homepage": "https://github.com/absolunet/node-terminal-pad",
+  "homepage": "https://github.com/valtech-commerce/terminal-pad",
   "author": {
-    "name": "Absolunet",
-    "url": "https://absolunet.com"
+    "name": "Valtech Canada inc.",
+    "url": "https://www.valtech.ca/"
   },
   "keywords": [
     "pad",
@@ -14,11 +14,11 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/absolunet/node-terminal-pad.git",
+    "url": "git://github.com/valtech-commerce/terminal-pad.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/absolunet/node-terminal-pad/issues"
+    "url": "https://github.com/valtech-commerce/terminal-pad/issues"
   },
   "engines": {
     "node": ">= 11.7.0"
